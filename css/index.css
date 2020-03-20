@@ -136,6 +136,15 @@ html,
 body {
   font-family: "Ubuntu", sans-serif;
   color: #5e6164;
+  margin-top: 10%;
+  background-color: whitesmoke;
+  opacity: 0.9;
+}
+@media (max-width:500px) {
+  html,
+  body {
+    margin-top: 0%;
+  }
 }
 h1,
 h2,
@@ -182,6 +191,15 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: lightskyblue;
+}
+@media (max-width:500px) {
+  nav {
+    position: static;
+  }
 }
 nav h1 {
   font-size: 3.5rem;

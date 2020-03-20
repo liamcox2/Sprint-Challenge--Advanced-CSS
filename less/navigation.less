@@ -3,6 +3,14 @@
 nav {
     display: flex;
     .columnCenter();
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightskyblue;
+
+    @media @phone {
+        position: static;
+    }
     h1 {
         font-size: 3.5rem;
         margin: 2% 0;
