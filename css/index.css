@@ -294,7 +294,7 @@ footer {
 }
 @media (max-width:500px) {
   .home .walk .walk-img {
-    width: 100%;
+    width: 120%;
     margin-bottom: 3%;
   }
 }
